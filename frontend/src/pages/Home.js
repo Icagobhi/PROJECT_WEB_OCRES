@@ -1,19 +1,21 @@
 import React from 'react';
 import WidgetOne from '../WIDGETS/WidgetOne';
-
+import WidgetTwo from '../WIDGETS/WidgetTwo';
 
 
 const Home = () => {
-    return(
+    return(        
         <div className="home">           
-            <h3>Widget 1 : Compétences</h3>
-            <WidgetOne />
-            
-            
-            
-            <h1>Ceci  est la page d'accueil ou seront affichés les widgets</h1>
+            <h3>Widget 1 : Compétences</h3>                       
+            <WidgetTwo />
+            <WidgetOne /> 
         </div>
     )
 }
+
+
+
+
+
 
 export default Home;
